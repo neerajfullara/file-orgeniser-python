@@ -14,6 +14,6 @@ This project is a Python script designed to automatically organize files based o
 1. **Configure the Script:** Edit the script to specify the directory you want to organize and any additional file extensions you want to include.
 2. **Run the Script:**
 ```bash
-  python file_organizer.py
+  python main.py
 ```
 3. **Check the Super Folder:** After running the script, navigate to the specified "super folder" to see your files neatly organized into year and month subdirectories.
