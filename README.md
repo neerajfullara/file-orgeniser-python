@@ -1,8 +1,19 @@
-# file-orgeniser-python
+# File Organiser Script python
 
-This is the project where I wrote a script to automatically arrange files based on their month and year, and save them in a super folder for safekeeping. The script arranges the items according to the month and year inside the respective year folder.
+This project is a Python script designed to automatically organize files based on their creation month and year, and save them into a structured "super folder" for safekeeping. The script categorizes the items into folders named by year, with subfolders for each month.
 
-During the project, I discovered that #python 3.10 introduced 'match case' statements, similar to 'switch case' statements. I used these statements and discovered they don't require break statements.
+## Features
+- **Automatic File Organization**: The script scans a specified directory and moves files into subdirectories named by year and month of creation.
+- **Flexible File Type Handling**: By default, the script supports a variety of file extensions including **jpg**, **jpeg**, **png**, **mov**, **mp4**, **mp3**, **txt**, **docx**, **rar**, and **pdf**. Additional file types can easily be added by editing the code.
+- **Modern Python Syntax**: Utilizes Python 3.10's match case statements, offering a clean and intuitive way to handle different file extensions without needing **break** statements.
 
-I got the idea for this project from a YouTube video from Alex Hyett and some extensions but he did it for Photos only and I added some more extensions such as jpg, jpeg, png, .mov, mp4, mp3, txt, docx, rar, pdf. Some file extensions are not added yet, but you can add them to this project by editing the code.
-Thank you.
+## Technologies Used
+**Python 3.10**: The core programming language used for the script, leveraging new features such as **match case** statements for improved code clarity and efficiency.
+
+## Usage
+1. **Configure the Script:** Edit the script to specify the directory you want to organize and any additional file extensions you want to include.
+2. **Run the Script:**
+```bash
+  python file_organizer.py
+```
+3. **Check the Super Folder:** After running the script, navigate to the specified "super folder" to see your files neatly organized into year and month subdirectories.
